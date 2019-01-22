@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mobile_navigation"
+            app:startDestination="@id/currentWeatherFragment2">
+
+    <fragment android:id="@+id/currentWeatherFragment2"
+              android:name="com.neobis.israil.myweather.ui.weather.current.CurrentWeatherFragment"
+              android:label="currentWeatherFragment" tools:layout="@layout/current_weather_fragment"/>
+    <fragment android:id="@+id/futureListWeatherFragment"
+              android:name="com.neobis.israil.myweather.ui.weather.future.list.FutureWeatherFragment"
+              android:label="future_weather_fragment" tools:layout="@layout/future_weather_fragment"/>
+    <fragment android:id="@+id/futureDetailWeatherFragment"
+              android:name="com.neobis.israil.myweather.ui.weather.future.detail.FutureDetailWeatherFragment"
+              android:label="future_detail_weather_fragment" tools:layout="@layout/future_detail_weather_fragment"/>
+    <fragment android:id="@+id/settingsFragment" android:name="com.neobis.israil.myweather.ui.settings.SettingFragment"
+              android:label="SettingFragment"/>
+</navigation>
